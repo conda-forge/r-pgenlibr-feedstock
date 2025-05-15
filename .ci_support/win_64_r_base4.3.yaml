@@ -5,7 +5,7 @@ channel_targets:
 cran_mirror:
 - https://cran.r-project.org
 libdeflate:
-- '1.23'
+- '1.24'
 m2w64_c_compiler:
 - gcc
 m2w64_c_compiler_version:
