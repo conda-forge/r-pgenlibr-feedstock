@@ -1,4 +1,4 @@
-{% set version = "0.5.4" %}
+{% set version = "0.5.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/pgenlibr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/pgenlibr/pgenlibr_{{ version }}.tar.gz
-  sha256: 457f2e991eeca8bb78d3eb0243bff569a1c5d4253db4041e4bdc3dd645cabcdd
+  sha256: cfa31c1840e22c3c23a99006784af9154f577f17c7345805cb64b2bf0979277e
 
 build:
   number: 0
